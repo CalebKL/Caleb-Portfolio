@@ -19,7 +19,7 @@ enum class Experience(
         jobPosition = "Open Source Developer- Volunteer",
         description = POCKET_CAST_OVERVIEW,
         company = "Pocketcast",
-        from = "February 2022",
+        from = "June 2023",
         to = "NOW",
     ),
     Second(
@@ -27,16 +27,16 @@ enum class Experience(
         jobPosition = "Android Developer (Remote)",
         description = GREENSTAND_OVERVIEW,
         company = "Greenstand",
-        from = "November 2022",
-        to = "November 2023",
+        from = "December 2022",
+        to = "September 2023",
     ),
     Third(
         number = "03",
         jobPosition = "Open Source Developer- Volunteer",
         description = STAX_OVERVIEW,
         company = "Stax",
-        from = "March 2020",
-        to = "August 2020",
+        from = "Feb 2023",
+        to = "May 2023",
     ),
     Fourth(
         number = "04",
@@ -44,7 +44,7 @@ enum class Experience(
         description = UPWORK_DESC,
         company = "Upwork",
         from = "June 2021",
-        to = "October 2022",
+        to = "November 2022",
     ),
 
 }
