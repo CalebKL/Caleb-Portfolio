@@ -3,10 +3,7 @@ package com.caleb.k.styles
 import com.caleb.k.models.Theme
 import com.varabyte.kobweb.compose.css.CSSTransition
 import com.varabyte.kobweb.compose.ui.Modifier
-import com.varabyte.kobweb.compose.ui.modifiers.color
-import com.varabyte.kobweb.compose.ui.modifiers.transform
-import com.varabyte.kobweb.compose.ui.modifiers.transition
-import com.varabyte.kobweb.compose.ui.modifiers.width
+import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.compose.ui.styleModifier
 import com.varabyte.kobweb.silk.components.style.ComponentStyle
 import com.varabyte.kobweb.silk.components.style.anyLink
@@ -32,6 +29,7 @@ val NavigationItemStyle by ComponentStyle {
 val LogoStyle by ComponentStyle {
     base {
         Modifier
+            .size(120.px)
             .transform { rotate(0.deg) }
             .transition(CSSTransition(property = "transform", duration = 200.ms))
     }

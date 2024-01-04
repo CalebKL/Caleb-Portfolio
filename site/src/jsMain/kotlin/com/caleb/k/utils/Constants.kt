@@ -127,7 +127,7 @@ object Res {
 
     object Image {
         const val background = "background.svg"
-        const val logo = "logo.svg"
+        const val logo = "androiddev.svg"
         const val main = "main_image.png"
         const val about = "Android.jpeg"
         const val map = "mapImage.jpeg"
