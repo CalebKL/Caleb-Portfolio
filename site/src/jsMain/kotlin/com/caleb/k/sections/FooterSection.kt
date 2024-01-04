@@ -74,7 +74,7 @@ fun FooterContent() {
         SocialBar(row = true)
         P(
             attrs = Modifier
-                .margin(top = 10.px)
+                .margin(top = 20.px)
                 .fontFamily(FONT_FAMILY)
                 .fontSize(14.px)
                 .lineHeight(1.6)
