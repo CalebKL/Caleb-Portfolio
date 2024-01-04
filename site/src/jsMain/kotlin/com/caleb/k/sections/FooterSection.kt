@@ -15,6 +15,7 @@ import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.graphics.Colors
 import com.varabyte.kobweb.compose.ui.modifiers.*
+import com.varabyte.kobweb.compose.ui.toAttrs
 import com.varabyte.kobweb.silk.components.graphics.Image
 import com.varabyte.kobweb.silk.components.navigation.Link
 import com.varabyte.kobweb.silk.components.style.breakpoint.Breakpoint
@@ -22,6 +23,7 @@ import com.varabyte.kobweb.silk.components.style.toModifier
 import com.varabyte.kobweb.silk.theme.breakpoint.rememberBreakpoint
 import org.jetbrains.compose.web.css.percent
 import org.jetbrains.compose.web.css.px
+import org.jetbrains.compose.web.dom.P
 import org.jetbrains.compose.web.dom.Text
 
 @Composable
@@ -70,6 +72,42 @@ fun FooterContent() {
             }
         }
         SocialBar(row = true)
+        P(
+            attrs = Modifier
+                .margin(top = 10.px)
+                .fontFamily(FONT_FAMILY)
+                .fontSize(14.px)
+                .lineHeight(1.6)
+                .fontWeight(FontWeight.Normal)
+                .toAttrs()
+        ) {
+            Text("Made with Kotlin and Compose for Web")
+        }
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center,
+        ) {
+            P(
+                attrs = Modifier
+                    .margin(topBottom = 0.px)
+                    .fontFamily(FONT_FAMILY)
+                    .fontSize(14.px)
+                    .fontWeight(FontWeight.Normal)
+                    .toAttrs()
+            ) {
+                Text("See the code on")
+            }
+            Link(
+                modifier = NavigationItemStyle.toModifier()
+                    .fontFamily(FONT_FAMILY)
+                    .fontSize(14.px)
+                    .padding(left = 4.px)
+                    .fontWeight(FontWeight.Normal)
+                    .textDecorationLine(TextDecorationLine.None),
+                path = "https://github.com/Mzazi25/LandingPortfolio",
+                text = "Github"
+            )
+        }
     }
 }
 

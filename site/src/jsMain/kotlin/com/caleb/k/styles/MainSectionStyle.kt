@@ -29,7 +29,7 @@ val NavigationItemStyle by ComponentStyle {
 val LogoStyle by ComponentStyle {
     base {
         Modifier
-            .size(120.px)
+            .size(150.px)
             .transform { rotate(0.deg) }
             .transition(CSSTransition(property = "transform", duration = 200.ms))
     }
