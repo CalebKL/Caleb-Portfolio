@@ -20,7 +20,7 @@ enum class Experience(
         description = POCKET_CAST_OVERVIEW,
         company = "Pocketcast",
         from = "June 2023",
-        to = "NOW",
+        to = "December 2023",
     ),
     Second(
         number = "02",
