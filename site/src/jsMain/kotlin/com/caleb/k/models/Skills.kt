@@ -2,10 +2,10 @@ package com.caleb.k.models
 
 import com.caleb.k.utils.Constants.ANDROID_OVERVIEW
 import com.caleb.k.utils.Constants.COMMUNICATION_SKILLS
-import com.caleb.k.utils.Constants.EXPERIMENTING_OVERVIEW
 import com.caleb.k.utils.Constants.GENERAL_SOFTWARE_SKILLS
 import com.caleb.k.utils.Constants.KOTLIN_OVERVIEW
-import com.caleb.k.utils.Constants.SOFT_SKILLS
+import com.caleb.k.utils.Constants.TEAMWORK
+import com.caleb.k.utils.Constants.TIME_MANAGEMENT
 import com.caleb.k.utils.Res
 
 
@@ -15,24 +15,6 @@ enum class Skills(
     val title: String,
     val description: String
 ) {
-    Communication(
-        icon = Res.Icon.seo,
-        imageDesc = "Android Icon",
-        title = "Communication ",
-        description = COMMUNICATION_SKILLS
-    ),
-    SoftSkills(
-        icon = Res.Icon.checkmark,
-        imageDesc = "Apple Icon",
-        title = "Soft Skills",
-        description = SOFT_SKILLS
-    ),
-    SoftwareCore(
-        icon = Res.Icon.checkmark,
-        imageDesc = "Desktop Icon",
-        title = "Software Core",
-        description = GENERAL_SOFTWARE_SKILLS
-    ),
     Android(
         icon =  Res.Icon.android,
         imageDesc = "Pen Icon",
@@ -45,10 +27,34 @@ enum class Skills(
         title = "Kotlin",
         description = KOTLIN_OVERVIEW
     ),
-    Experimenting(
-        icon = Res.Icon.shield,
-        imageDesc = "Megaphone Icon",
-        title = "Experimenting...",
-        description = EXPERIMENTING_OVERVIEW
-    )
+    Communication(
+        icon = Res.Icon.seo,
+        imageDesc = "Android Icon",
+        title = "Communication",
+        description = COMMUNICATION_SKILLS
+    ),
+    Teamwork(
+        icon = Res.Icon.checkmark,
+        imageDesc = "Apple Icon",
+        title = "Team Work",
+        description = TEAMWORK
+    ),
+    SoftSkills(
+        icon = Res.Icon.checkmark,
+        imageDesc = "Apple Icon",
+        title = "Time Management",
+        description = TIME_MANAGEMENT
+    ),
+    SoftwareCore(
+        icon = Res.Icon.checkmark,
+        imageDesc = "Desktop Icon",
+        title = "Others",
+        description = GENERAL_SOFTWARE_SKILLS
+    ),
+//    Experimenting(
+//        icon = Res.Icon.shield,
+//        imageDesc = "Megaphone Icon",
+//        title = "Experimenting...",
+//        description = EXPERIMENTING_OVERVIEW
+//    )
 }
