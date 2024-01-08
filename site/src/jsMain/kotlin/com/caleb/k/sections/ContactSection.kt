@@ -103,7 +103,7 @@ fun ContactContent() {
                 .color(Theme.Secondary.rgb)
                 .toAttrs()
         ) {
-            Text("Email: langat.caleb95@gmail.com")
+            Text("Email: langat.ck95@gmail.com")
         }
         Img(
             attrs = Modifier
