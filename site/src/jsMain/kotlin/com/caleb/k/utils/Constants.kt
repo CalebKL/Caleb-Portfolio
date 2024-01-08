@@ -3,6 +3,10 @@ package com.caleb.k.utils
 
 object Constants {
     const val WEBSITE = ""
+    const val TWITTER = "https://twitter.com/_CalebLangat"
+    const val INSTAGRAM = ""
+    const val LINKDLN = "https://www.linkedin.com/in/caleb-langat/"
+    const val MEDIUM = "https://medium.com/@langat.caleb95"
     const val SECTION_WIDTH = 1920
     const val FONT_FAMILY = "Roboto"
 
@@ -63,13 +67,24 @@ object Constants {
                 "One of my key responsibilities was migrating legacy code to modern practices. This included adopting Kotlin coroutines for handling concurrency, Dagger Hilt for dependency injection, and migrating to Jetpack Compose. These modern practices improved the efficiency and readability of our codebase.\n" +
                 "\n" +
                 "Overall, my role at Pocket Casts was crucial in maintaining the stability and functionality of our applications while continuously improving them with modern technologies and practices."
+    const val TIME_MANAGEMENT =
+        "- Proficient in time management, I excel in prioritizing tasks and meeting deadlines consistently." +
+                " My organizational abilities allow for efficient planning and execution, ensuring projects/tasks are " +
+                "completed on schedule. This commitment" +
+                " to effective time utilization reflects my dedication to productivity and achieving " +
+                "high-quality outcomes."
+    const val TEAMWORK =
+        "- I possess exceptional teamwork skills, adept at fostering a collaborative" +
+                " and positive work environment. I leverage strong interpersonal skills to effectively " +
+                "communicate and cooperate with team members, valuing diverse perspectives to " +
+                "achieve common goals. I am well-versed with Git and Github for effective code collaboration"
+
     const val COMMUNICATION_SKILLS =
-        "- Proven ability to convey complex ideas clearly and concisely, fostering effective collaboration within teams.\n" +
-                "Strong interpersonal skills, facilitating open communication and understanding within teams. " +
-                "Proficient in both written and oral English communication."
-    const val SOFT_SKILLS =
-        "- Possess a range of interpersonal skills such as teamwork, adaptability, and time management, contributing to a positive and productive work atmosphere.\n" +
-                "Adept at problem-solving and critical thinking, demonstrating resilience and flexibility in dynamic work scenarios."
+        "- I am Proficient in both written and oral English communication. " +
+                " allowing me to articulate complex technical concepts to both technical and non-technical" +
+                " people. Whether collaborating with team members, discussing project requirements," +
+                " or documenting code changes, I prioritize clear and concise communication. " +
+                "This facilitates smooth collaboration within the development team and and overall success of the software solution"
     const val KOTLIN_OVERVIEW =
         "- Expertise in Kotlin programming language, leveraging its concise syntax and modern features to " +
                 "enhance the development of Android applications.\n" +
@@ -88,12 +103,17 @@ object Constants {
                 "I also prioritize code reuse, to enhance efficiency and reduce redundancy. " +
                 "Additionally, I place a strong emphasis on code maintainability, employing thorough documentation, " +
                 "testing, and code reviews to guarantee a resilient and easily updatable codebase. "
-    const val EXPERIMENTING_OVERVIEW =
-        "- Currently experimenting with Compose HTML, and Compose for Desktop. " +
-                "Also, learning a lot about Kotlin Multiplatform."
 
     const val SHORT_INTRO =
-        "I am an Experienced and resourceful Android Engineer primarily working with Kotlin. My strongest skills include: Debugging, Refactoring, Researching and Learning New and Upcoming Technologies."
+        "I am an Experienced and resourceful Android Engineer proficient in concurrency, " +
+                " app architecture, memory & storage management and security aspects of Android apps. " +
+                "I am well-versed in Kotlin, Java, skilled in test-driven development(TDD), " +
+                "Jetpack-Compose, View-System,UI design, Reactive Programming(Kotlin-Coroutines, RxKotlin, RxJava), " +
+                "Retrofit, Unit and UI testing (JUnit), " +
+                "continuous integration/deployment(Fastlane, CircleCI, Github Actions), " +
+                "agile development, product-driven development, communication skills, " +
+                "among others and collaborating with remote and distributed teams.  I am also open to learning new technologies" +
+                " since I believe that intellectual growth is indispensable and it never exhausts the mind."
     const val ABOUT_ME_1 =
         "- A Software Engineer with a strong background in developing Native Mobile Applications. \n" +
                 "My expertise encompasses developing robust Android applications while applying\n " +
@@ -104,14 +124,8 @@ object Constants {
                 "intensive participation of Open Source Technologies and community based initiatives.\n" +
                 "I am also a strong advocate for scalable and modular system architecture with intensive\n" +
                 "testing. I have co-facilitated transitions to more efficient tech stacks,\n" +
-                " significantly improving system performance and adaptability. "
-    const val ABOUT_ME_3 =
-        "- A career marked by continuous learning and innovation, I am dedicated to leveraging technology\n" +
-                "to create meaningful solutions that resonate with users and contribute to societal progress.\n" +
-                "In addition to my technical skills, I value effective communication and collaboration within teams\n" +
-                "and thrive in an agile environment where adaptability is key."
-    const val LOREM_IPSUM_SHORT =
-        "- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                " significantly improving system performance and adaptability. " +
+                "Below are the list of skills where I demonstrate exceptional proficiency. "
 }
 
 object Res {
