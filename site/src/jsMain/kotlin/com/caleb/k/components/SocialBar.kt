@@ -2,6 +2,10 @@ package com.caleb.k.components
 
 import androidx.compose.runtime.Composable
 import com.caleb.k.styles.SocialLinkStyle
+import com.caleb.k.utils.Constants.INSTAGRAM
+import com.caleb.k.utils.Constants.LINKDLN
+import com.caleb.k.utils.Constants.MEDIUM
+import com.caleb.k.utils.Constants.TWITTER
 import com.caleb.k.utils.Constants.WEBSITE
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Column
@@ -50,10 +54,10 @@ fun SocialBar(row: Boolean = false) {
 @Composable
 private fun SocialLinks(row: Boolean = false) {
     Link(
-        path = WEBSITE,
+        path = LINKDLN,
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
-        FaFacebook(
+        FaLinkedin(
             modifier = SocialLinkStyle.toModifier()
                 .margin(
                     bottom = if (row) 0.px else 40.px,
@@ -63,7 +67,7 @@ private fun SocialLinks(row: Boolean = false) {
         )
     }
     Link(
-        path = WEBSITE,
+        path = TWITTER,
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
         FaTwitter(
@@ -76,10 +80,10 @@ private fun SocialLinks(row: Boolean = false) {
         )
     }
     Link(
-        path = WEBSITE,
+        path = MEDIUM,
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
-        FaInstagram(
+        FaMedium(
             modifier = SocialLinkStyle.toModifier()
                 .margin(
                     bottom = if (row) 0.px else 40.px,
@@ -89,10 +93,10 @@ private fun SocialLinks(row: Boolean = false) {
         )
     }
     Link(
-        path = WEBSITE,
+        path = INSTAGRAM,
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
-        FaLinkedin(
+        FaInstagram(
             modifier = SocialLinkStyle.toModifier(),
             size = IconSize.LG
         )
