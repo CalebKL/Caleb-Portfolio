@@ -10,9 +10,7 @@ import com.caleb.k.styles.AboutImageStyle
 import com.caleb.k.styles.AboutTextStyle
 import com.caleb.k.utils.Constants.ABOUT_ME_1
 import com.caleb.k.utils.Constants.ABOUT_ME_2
-import com.caleb.k.utils.Constants.ABOUT_ME_3
 import com.caleb.k.utils.Constants.FONT_FAMILY
-import com.caleb.k.utils.Constants.LOREM_IPSUM_SHORT
 import com.caleb.k.utils.Constants.SECTION_WIDTH
 import com.caleb.k.utils.ObserveViewportEntered
 import com.caleb.k.utils.Res
@@ -148,19 +146,19 @@ fun AboutMe() {
         ) {
             Text(ABOUT_ME_2)
         }
-        P(
-            attrs = AboutTextStyle.toModifier()
-                .margin(topBottom = 15.px)
-                .maxWidth(500.px)
-                .fontFamily(FONT_FAMILY)
-                .fontSize(18.px)
-                .fontWeight(FontWeight.Normal)
-                .fontStyle(FontStyle.Italic)
-                .color(Theme.Secondary.rgb)
-                .toAttrs()
-        ) {
-            Text(ABOUT_ME_3)
-        }
+//        P(
+//            attrs = AboutTextStyle.toModifier()
+//                .margin(topBottom = 15.px)
+//                .maxWidth(500.px)
+//                .fontFamily(FONT_FAMILY)
+//                .fontSize(18.px)
+//                .fontWeight(FontWeight.Normal)
+//                .fontStyle(FontStyle.Italic)
+//                .color(Theme.Secondary.rgb)
+//                .toAttrs()
+//        ) {
+//            Text(ABOUT_ME_3)
+//        }
 
     }
 }
