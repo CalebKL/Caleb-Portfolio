@@ -35,7 +35,7 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
-          destination: ./site/.kobweb/site
+          destination: site/.kobweb/site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
