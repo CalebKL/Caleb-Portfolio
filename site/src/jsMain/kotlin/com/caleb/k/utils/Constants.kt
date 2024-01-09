@@ -9,64 +9,6 @@ object Constants {
     const val MEDIUM = "https://medium.com/@langat.caleb95"
     const val SECTION_WIDTH = 1920
     const val FONT_FAMILY = "Roboto"
-
-    const val UPWORK_DESC =
-        "- As a self-employed Android Developer operating on platforms such as Upwork,\n" +
-                " I brought a wealth of expertise in Kotlin, Jetpack Compose,\n" +
-                " Data binding, XML, Unit testing, UI Testing, Clean Architecture,\n" +
-                " and collaboration to various projects. \n" +
-                "Key highlights of my freelance role include working on user interfaces from \n " +
-                "Figma and Adobe using both Jetpack Compose and XML, maintaining legacy code \n" +
-                "by fixing bugs and migrating to latest app architecture patterns such as MVP to \n" +
-                "MVVM (Model-View-ViewModel), app modularization, and migrating legacy code to modern\n" +
-                " practices like Kotlin coroutines (for concurrency), Dagger Hilt for \n" +
-                "dependency injection (DI) and Retrofit. I also worked with outside data sources and\n" +
-                " API Third Parties, maintained standards in android development using clean\n" +
-                " architectural design patterns, and wrote unit tests for the code including edge cases,\n" +
-                " usability, and general reliability, deploying on the Playstore periodically."
-    const val GREENSTAND_OVERVIEW =
-        "- In my role at Greenstand, " +
-                "I've been an integral part of a dynamic engineering team, contributing to the " +
-                "innovative reforestation initiatives by leveraging cutting-edge technology." +
-                " Collaborating with a talented group of engineers, our focus has been on empowering " +
-                "thousands of farmers through a digital tree tracking system, ensuring they receive " +
-                "compensation for their vital contributions to reforestation. Responsible for " +
-                "maintaining legacy applications, I address bugs and implement improvements to guarantee" +
-                " stability, maintaining it at a level greater than 80%. A significant aspect of my" +
-                " responsibilities involves enhancing the unit test coverage of the code base from 15%" +
-                " to approximately 65%, while also implementing CI pipelines to ensure the overall " +
-                "stability of the app. Working closely with the design team, I actively participate in " +
-                "breaking down user requirements, creating user personas, developing requirement " +
-                "canvases, and defining technical requirements and roadmaps. My collaboration extends " +
-                "to product managers, QA, UI/UX, and backend teams to deliver products with clean user " +
-                "interfaces, and I play a pivotal role in developing stable, data-driven, and" +
-                " product-driven Android features for the application."
-
-    const val STAX_OVERVIEW =
-        "- At Stax Payments, I worked as an OPEN SOURCE Developper playing a pivotal role in" +
-                " maintaining and advancing our cutting-edge" +
-                " payment processing solution, which excels in automating USSD transactions for businesses." +
-                " My responsibilities span various aspects, encompassing networking, data persistence," +
-                " and user interfaces utilizing both XML and Jetpack Compose. A key focus has been the " +
-                "modularization of the Stax App into a multi-module application, aligning with " +
-                "SOLID principles to enhance scalability and maintainability. Collaborating closely " +
-                "with team members, I actively contribute to improving unit test code coverage, " +
-                "elevating it from 20% to 35%. As part of the evolution of our app architecture, I " +
-                "helped lead the migration from a singular module to a multi-modular structure, " +
-                "incorporating " +
-                "best practices. Additionally, I champion the introduction of superior practices such as" +
-                " dependency injection using Dagger 2, facilitating a more robust and efficient codebase." +
-                " The implementation of automated testing, employing techniques like " +
-                "test-driven development, has been a key initiative, ensuring the reliability and " +
-                "quality of our codebase."
-    const val POCKET_CAST_OVERVIEW =
-        "- At Pocket Casts, I work as an Open Source Developer being responsible for assisting the mobile team in developing the native mobile app entirely in Kotlin, adhering to Modern Android Best Practices. This involved migrating from XML to Jetpack Compose, ensuring we followed best practices for a modern declarative approach to UI .\n" +
-                "\n" +
-                "I helped maintained the stability of the legacy applications by fixing bugs and releasing improvements, aiming for a stability rate of over 85%. Additionally, I worked towards increasing the test coverage from approximately 50% to 65%, which helped ensure the reliability of our codebase.\n" +
-                "\n" +
-                "One of my key responsibilities was migrating legacy code to modern practices. This included adopting Kotlin coroutines for handling concurrency, Dagger Hilt for dependency injection, and migrating to Jetpack Compose. These modern practices improved the efficiency and readability of our codebase.\n" +
-                "\n" +
-                "Overall, my role at Pocket Casts was crucial in maintaining the stability and functionality of our applications while continuously improving them with modern technologies and practices."
     const val TIME_MANAGEMENT =
         "- Proficient in time management, I excel in prioritizing tasks and meeting deadlines consistently." +
                 " My organizational abilities allow for efficient planning and execution, ensuring projects/tasks are " +
