@@ -123,7 +123,7 @@ fun ContactContent() {
                 .color(Theme.Secondary.rgb)
                 .toAttrs()
         ) {
-            Text("Location: Nairobi, Kenya")        }
+            Text("Location: Berlin, Germany")        }
 
     }
 }
